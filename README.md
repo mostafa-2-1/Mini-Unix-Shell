@@ -12,23 +12,25 @@ A small, structured UNIX-like shell implemented in Java. Designed with modularit
 
 ## How to run
 
-1. **Clone the repo**
+Clone the repository:
 
 ```bash
 git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
 cd Mini-Unix-Shell
-mvn clean package
+```
 
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
-cd Mini-Unix-Shell
-mvn clean package
-
-1. **Clone the repo**
+Build with Maven:
 
 ```bash
-git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
-cd Mini-Unix-Shell
 mvn clean package
+```
+
+Run the shell:
+
+```bash
+java -cp target/classes shell.Shell
+```
+
+## License
+
+MIT License
