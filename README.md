@@ -14,8 +14,12 @@ A small, structured UNIX-like shell implemented in Java.
 ```bash
 git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
 
-2. Build with Maven:
-mvn clean package
+1. Build with Maven:
+```bash
+mvn clean build
 
-3. Run the shell:
+1. Run the Shell:
+```bash
 java -cp target/classes shell.shell
+
+
