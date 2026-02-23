@@ -1,0 +1,12 @@
+# Maven
+/target/
+
+# Eclipse
+/bin/
+.settings/
+.classpath
+.project
+
+# OS junk
+.DS_Store
+Thumbs.db
