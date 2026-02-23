@@ -22,7 +22,7 @@ cd Mini-Unix-Shell
 Build with Maven:
 
 ```bash
-mvn clean package
+mvn clean build
 ```
 
 Run the shell:
