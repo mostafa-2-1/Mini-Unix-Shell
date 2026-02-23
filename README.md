@@ -1,8 +1,9 @@
 # Mini UNIX Shell
 
-A small, structured UNIX-like shell implemented in Java.
+A small, structured UNIX-like shell implemented in Java. Designed with modularity, built-in commands, pipeline execution, and tab-completion support.
 
 ## Features
+
 - Custom command parser and executor
 - Built-in commands: `cd`, `pwd`, `echo`, `exit`, `type`, `history`
 - Pipeline execution and external command support
@@ -11,16 +12,23 @@ A small, structured UNIX-like shell implemented in Java.
 
 ## How to run
 
-1. Clone the repo:
+1. **Clone the repo**
+
 ```bash
 git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
+cd Mini-Unix-Shell
+mvn clean package
 
-2. Build with Maven:
+1. **Clone the repo**
+
 ```bash
-mvn clean build
+git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
+cd Mini-Unix-Shell
+mvn clean package
 
-3. Run the Shell:
+1. **Clone the repo**
+
 ```bash
-java -cp target/classes shell.shell
-
-
+git clone https://github.com/mostafa-2-1/Mini-Unix-Shell.git
+cd Mini-Unix-Shell
+mvn clean package
